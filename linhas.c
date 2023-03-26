@@ -26,8 +26,6 @@ int main(){
         printf("%c%c%c%c%c \n", a, a, a, a, a);
     }
 
-
-
     getch();
     return 0;
 }

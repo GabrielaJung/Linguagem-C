@@ -54,7 +54,7 @@ int main(){
         //Encontrar as duas maiores notas:
         if(n1 > n2 && n1 > n3){
             maior1 = n1;
-            if(n2 > n3){
+            if(n2 > n3){h
                 maior2 = n2;
             } else {
                 maior2 = n3;
