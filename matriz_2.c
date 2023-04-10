@@ -45,7 +45,7 @@ int main(){
     }
     printf("\n");
 
-    //exibe maior elemento de cada linha
+    //exibe maior elemento de cada coluna
     for(j=0;j<3;j++){ //colunas
         maior = mat[0][j]; //inicia com o 1º elemento de cada coluna
         for(i=0;i<4;i++){ //linhas
