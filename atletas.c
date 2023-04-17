@@ -1,18 +1,18 @@
-/* Proponha um programa em C, para gerenciar os atletas para os quais o usuário vai torcer nas Olimpíadas.
-O programa deve ser organizado em funções, e solicitar na inicialização a quantidade de atletas que o usuário pretende torcer.
+/* Proponha um programa em C, para gerenciar os atletas para os quais o usuï¿½rio vai torcer nas Olimpï¿½adas.
+O programa deve ser organizado em funï¿½ï¿½es, e solicitar na inicializaï¿½ï¿½o a quantidade de atletas que o usuï¿½rio pretende torcer.
 A primeira deve realizar a leitura e armazenamento dos dados de cada atleta:
 nome, esporte, idade, altura, e expectativa de medalha (ouro, prata, bronze ou nenhuma). Para isso deve ser empregado struct.
 
-Além disso, observe que o usuário não precisa armazenar todos os atletas de uma vez.
-Também deve ser implementada uma função para pesquisar o atleta por nome.
-Além disso, uma função deve exibir os atletas pela expectativa de medalha, ou seja,
+Alï¿½m disso, observe que o usuï¿½rio nï¿½o precisa armazenar todos os atletas de uma vez.
+Tambï¿½m deve ser implementada uma funï¿½ï¿½o para pesquisar o atleta por nome.
+Alï¿½m disso, uma funï¿½ï¿½o deve exibir os atletas pela expectativa de medalha, ou seja,
 primeiro os com chance de ouro, depois, de prata, e assim sucessivamente.
 
 Importante:
 
-- Priorize o uso de variáveis locais;
-- Valide os dados informados sempre que possível;
-- Proponha outras funções que julgar necessárias. */
+- Priorize o uso de variï¿½veis locais;
+- Valide os dados informados sempre que possï¿½vel;
+- Proponha outras funï¿½ï¿½es que julgar necessï¿½rias. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -39,7 +39,7 @@ void cadastrarAtleta() {
     }
     Atleta novoAtleta;
     printf("Digite o nome do atleta: ");
-    scanf("%s", novoAtleta.nome); //fgets(novoAtleta.nome, 50, stdin);
+    scanf("%s", novoAtleta.nome); //fgets(novoAtleta.nome, 50, stdin); 
     printf("\n");
 
     printf("Digite o esporte do atleta: ");
